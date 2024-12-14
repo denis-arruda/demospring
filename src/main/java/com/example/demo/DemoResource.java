@@ -12,7 +12,7 @@ public class DemoResource {
   }
 
   @GetMapping("/ping")
-  public String getMethodName() {
+  public String ping() {
     return "Hello!";
   }
 }
